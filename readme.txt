@@ -1,4 +1,4 @@
-=== Rexly Pro ===
+=== Rexly ===
 
 Contributors: wpfreeware
 Tags: full-width-template, one-column, custom-colors, theme-options, threaded-comments, sticky-post, custom-background, custom-menu, editor-style, featured-images, right-sidebar, left-sidebar, translation-ready, two-columns
