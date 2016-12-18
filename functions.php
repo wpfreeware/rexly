@@ -88,7 +88,7 @@ require_once( 'inc/functions/tgm/rexly-required-plugins.php' );
  *  @since rexly 1.0
  */
 // Load only if Kirki activated
-if ( class_exists( 'Kirki' ) ) { 
+if ( class_exists( 'Kirki' ) ) {
 	require_once( 'inc/functions/customizer/customizer.php' );
 }
 

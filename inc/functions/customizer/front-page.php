@@ -87,3 +87,12 @@
 	 *	@since rexly 1.0
 	 */
 	require_once( get_template_directory() . $customizer_path . '/front-page/contact.php' );
+	
+	/*  
+	 *
+	 *	Section/Fields - unlock info | Front Page
+	 *	Contains "unlock" section & fields.
+	 *
+	 *	@since rexly 1.0
+	 */
+	require_once( get_template_directory() . $customizer_path . '/front-page/unlock-sections.php' );
