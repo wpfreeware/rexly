@@ -37,6 +37,15 @@
 		'priority'    		=> 10,
 	) );
 	
+	// free vs pro
+	rexly_Kirki::add_field( 'rexly_config', array(
+		'type'        		=> 'custom',
+		'settings'    		=> 'rexly_theme_free_vs_pro',
+		'section'     		=> 'rexly_theme_info_section',
+		'default'     		=> '<a href="https://www.wpfreeware.com/docs/rexly-free-vs-pro/" target="_blank">' . esc_html__( 'Free vs Pro', 'rexly' ) . '</a>',
+		'priority'    		=> 10,
+	) );
+	
 	// Support
 	rexly_Kirki::add_field( 'rexly_config', array(
 		'type'        		=> 'custom',
@@ -46,11 +55,11 @@
 		'priority'    		=> 10,
 	) );
 	
-	// Changelogs
+	// leave review
 	rexly_Kirki::add_field( 'rexly_config', array(
 		'type'        		=> 'custom',
-		'settings'    		=> 'rexly_theme_changelogs',
+		'settings'    		=> 'rexly_theme_leave_review',
 		'section'     		=> 'rexly_theme_info_section',
-		'default'     		=> '<a href="https://www.wpfreeware.com/docs/rexly-changelogs/" target="_blank">' . esc_html__( 'Changelogs', 'rexly' ) . '</a>',
+		'default'     		=> '<a href="https://wordpress.org/support/theme/rexly/reviews/?filter=5" target="_blank">' . esc_html__( 'Leave a review', 'rexly' ) . '</a>',
 		'priority'    		=> 10,
 	) );
