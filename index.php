@@ -45,12 +45,12 @@ get_header(); ?>
 				
 									<?php
 										/*
-										 *	If jetpack infinite-scroll module disabled
-										 *	then go ahead & display numeric pagination
+										 *	Enable / Disable blog pagination
 										 *
 										 *	@since rexly 1.0
 										 */
-										if( !Jetpack::is_module_active( 'infinite-scroll' ) ) :
+										 $blog_pagination	=	esc_html( get_theme_mod( 'rexly_blog_num_pagination', '0' ) );
+										if( $blog_pagination == '0' ) :
 											get_template_part( 'inc/templates/blog', 'pagination' );
 										endif;
 									?>

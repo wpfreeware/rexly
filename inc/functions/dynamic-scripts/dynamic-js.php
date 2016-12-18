@@ -14,22 +14,6 @@ function rexly_dynamic_js_call(){ ?>
 				(function( $ ){
 					
 					<?php if( is_page_template( 'front-page.php' ) || is_front_page() ) : ?>
-					
-						<?php
-						/*	
-						 *	COUNTER
-						 *	If counter section disabled then go ahead 
-						 *	& disable counter js call
-						 *
-						 *	@since rexly 1.0
-						 */ 
-						$counter_section_on	=	esc_html( get_theme_mod( 'rexly_counter_enable_disable', '1' ) );
-						if( $counter_section_on ) : ?>
-							$('.counter').counterUp({
-						        delay: 10,
-						        time: 1000
-						    });
-					    <?php endif; ?>
 					    
 						<?php
 						/*
@@ -53,59 +37,6 @@ function rexly_dynamic_js_call(){ ?>
 						      	slidesToShow: 1,
 								slide: 'div',		
 								cssEase: 'linear'
-							});
-						<?php endif; ?>
-						
-		
-						<?php
-						/*
-						 *	CLIENT SLIDE
-						 *	If client logo section disabled then go ahead 
-						 *	& disable client logo js call
-						 *
-						 *	@since rexly 1.0
-						 */
-						$clients_logo_autoplay		=	esc_html( get_theme_mod( 'rexly_clients_logo_autoplay_on_off', '0' ) );
-						$clients_logo_slide_speed	=	esc_html( get_theme_mod( 'rexly_clients_logo_slide_speed', '3000' ) );
-						$clients_logo_on			=	esc_html( get_theme_mod( 'rexly_clients_logo_enable_disable', '1' ) );
-						if( $clients_logo_on ) : ?>	
-							$('.client-table').slick({
-							  dots: false,
-							  infinite: true,
-							  arrows:false, 
-							  speed: 300,
-							  autoplay: <?php echo ( $clients_logo_autoplay ) ? 'false' : 'true'; ?>,
-							  autoplaySpeed: <?php echo $clients_logo_slide_speed; ?>,     
-							  slidesToShow: 6,
-							  slidesToScroll: 6,
-							  responsive: [
-							    {
-							      breakpoint: 1024,
-							      settings: {
-							        slidesToShow: 4,
-							        slidesToScroll: 4,
-							        infinite: true,
-							        dots: true
-							      }
-							    },
-							    {
-							      breakpoint: 600,
-							      settings: {
-							        slidesToShow: 2,
-							        slidesToScroll: 2
-							      }
-							    },
-							    {
-							      breakpoint: 480,
-							      settings: {
-							        slidesToShow: 1,
-							        slidesToScroll: 1
-							      }
-							    }
-							    // You can unslick at a given breakpoint now by adding:
-							    // settings: "unslick"
-							    // instead of a settings object
-							  ]
 							});
 						<?php endif; ?>
 						

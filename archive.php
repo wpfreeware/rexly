@@ -36,7 +36,17 @@ get_header(); ?>
 									?>
 									<!-- end loop -->
 				
-									<?php get_template_part( 'inc/templates/blog', 'pagination' ); ?>
+									<?php
+										/*
+										 *	Enable / Disable blog pagination
+										 *
+										 *	@since rexly 1.0
+										 */
+										 $blog_pagination	=	esc_html( get_theme_mod( 'rexly_blog_num_pagination', '0' ) );
+										if( $blog_pagination == '0' ) :
+											get_template_part( 'inc/templates/blog', 'pagination' );
+										endif;
+									?>
 				                </div>
 				            </div>
 							

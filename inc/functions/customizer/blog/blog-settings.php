@@ -49,6 +49,16 @@
 		),
 	) );
 	
+	// on/off pagination
+	rexly_Kirki::add_field( 'rexly_config', array(
+		'type'     			=> 'checkbox',
+		'settings' 			=> 'rexly_blog_num_pagination',
+		'label'    			=> __( 'Hide blog numeric pagination', 'rexly' ),
+		'section'  			=> 'rexly_blog_layout_section',
+		'priority' 			=> 10,
+		'default'     		=> '0',				
+	) );
+	
 	// on/off category
 	rexly_Kirki::add_field( 'rexly_config', array(
 		'type'     			=> 'checkbox',
