@@ -603,7 +603,6 @@ img.alignnone{
 }
 
 .search-area input[type="text"]:focus {
-	width: 950px;
 	z-index: 1;
 	background-color: #fff;
 	cursor: text;
