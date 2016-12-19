@@ -24,7 +24,7 @@
 		'settings'    => 'rexly_color_scheme',
 		'label'       => __( 'Site color scheme', 'rexly' ),
 		'section'     => 'rexly_general_settings_section',
-		'default'     => '#00d999',
+		'default'     => '#FF6634',
 		'priority'    => 10,
 		'alpha'       => true,
 	) );
