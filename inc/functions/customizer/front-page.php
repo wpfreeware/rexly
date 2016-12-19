@@ -36,21 +36,21 @@
 	
 	/*  
 	 *
-	 *	Section/Fields - Portfolio | Front Page
-	 *	Contains "Portfolio" section.
-	 *
-	 *	@since rexly 1.0
-	 */
-	require_once( get_template_directory() . $customizer_path . '/front-page/portfolios.php' );
-	
-	/*  
-	 *
 	 *	Section/Fields - callout Section | Front Page
 	 *	Contains "callout" section & fields.
 	 *
 	 *	@since rexly 1.0
 	 */
 	require_once( get_template_directory() . $customizer_path . '/front-page/callout-action.php' );
+	
+	/*  
+	 *
+	 *	Section/Fields - Portfolio | Front Page
+	 *	Contains "Portfolio" section.
+	 *
+	 *	@since rexly 1.0
+	 */
+	require_once( get_template_directory() . $customizer_path . '/front-page/portfolios.php' );
 	
 	/*  
 	 *
