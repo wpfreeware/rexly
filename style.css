@@ -1910,6 +1910,17 @@ img.alignnone{
 	width: 100%;
 }
 
+.blog-area .sticky .blog-title,
+.blog-area .sticky>p,
+.blog-area .sticky .blog-footer{
+	background-color: #fff;
+}
+
+.blog-area .sticky>p{
+	padding-bottom: 20px;	
+	margin-bottom: 0;	
+}
+
 .single-from-blog .blog-title h2 {
 	color: #3e3e3e;
 	font-size: 28px;

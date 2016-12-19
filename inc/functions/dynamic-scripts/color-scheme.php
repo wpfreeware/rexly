@@ -157,7 +157,8 @@ function rexly_site_color_scheme(){
 			.woocommerce-product-search input[type="submit"],
 			.woocommerce div.product .woocommerce-tabs ul.tabs li,
 			.team-info,
-			.introduction-btn {
+			.introduction-btn,
+			.blog-area .sticky {
 				background-color: '. $theme_color .';  
 			}
 			
