@@ -67,6 +67,11 @@ function rexly_register_required_plugins() {
 			'name'      => 'CMB2',
 			'slug'      => 'cmb2',
 			'required'  => true,
+		),
+		array(
+			'name'      => 'Rexly Toolbox',
+			'slug'      => 'rexly-toolbox',
+			'required'  => true,
 		),					
 	);
 
