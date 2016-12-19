@@ -786,8 +786,6 @@ img.alignnone{
 
 .about-right p {
 	color: #535353;
-	font-family: "Raleway",sans-serif;
-	margin-bottom: 32px;
 }
 
 .about-btn-area{
@@ -795,6 +793,10 @@ img.alignnone{
 	display: inline;
 	margin-top: 14px;
 	width: 100%;
+}
+
+.about-btn-area .button{
+	margin-left: 0;	
 }
 
 .button {
@@ -2034,7 +2036,7 @@ img.alignnone{
 	background-color: rgba(104, 102, 96, 0.5);
 	display: inline;
 	float: left;
-	padding: 30px 40px 10px;
+	padding: 30px 40px 20px;
 	width: 100%;
 	text-align: center;
 }
@@ -2042,14 +2044,12 @@ img.alignnone{
 .contact-left h2 {
 	color: #fafafa;
 	font-size: 35px;
-	margin-bottom: 35px;
 }
 
 .single-address {
 	display: inline;
 	float: left;
-	margin-bottom: 15px;
-	padding-right: 50px;
+	margin-bottom: 10px;
 	width: 100%;
 }
 
@@ -2057,7 +2057,7 @@ img.alignnone{
 	color: #fafafa;
 	font-size: 22px;
 	font-weight: bold;
-	margin-bottom: 17px;
+	margin-bottom: 10px;
 }
 
 .single-address p {
