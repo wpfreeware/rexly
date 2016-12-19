@@ -155,7 +155,9 @@ function rexly_site_color_scheme(){
 			.blog-link-post a:focus,
 			.loader:before,
 			.woocommerce-product-search input[type="submit"],
-			.woocommerce div.product .woocommerce-tabs ul.tabs li {
+			.woocommerce div.product .woocommerce-tabs ul.tabs li,
+			.team-info,
+			.introduction-btn {
 				background-color: '. $theme_color .';  
 			}
 			
@@ -238,14 +240,6 @@ function rexly_site_color_scheme(){
 			.error-no {  
 				border: 2px solid '. $theme_color .';
 			}
-			
-			.introduction-btn {
-				background-color: rgba(0, 217, 153, 0.8);
-			}
-			
-			.team-info {
-				background: rgba(0, 217, 153, 0.8);
-			} 
 			
 			.single-service {
 				border-bottom: 5px solid '. $theme_color .';

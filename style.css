@@ -1061,7 +1061,7 @@ img.alignnone{
 	-o-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1);
-	opacity: 1;
+	opacity: 0.9;
 }
 
 .team-grid li:hover .team-info p {
