@@ -603,6 +603,7 @@ img.alignnone{
 }
 
 .search-area input[type="text"]:focus {
+	width: 980px;
 	z-index: 1;
 	background-color: #fff;
 	cursor: text;
@@ -4259,7 +4260,7 @@ blockquote cite{
 	}
 	
 	.search-area input[type="text"]:focus {
-		width: 820px;  
+		width: 850px;  
 	}
 	
 	.team-item{
@@ -4430,7 +4431,7 @@ blockquote cite{
 	}
 	
 	.main-nav li a {
-		font-size: 14px;
+		font-size: 13px;
 		padding: 39px 7px;
 	}
 	
@@ -5357,7 +5358,7 @@ blockquote cite{
 	
 	.search-area input[type="text"]:focus {	 
 		height: 35px;
-		width: 250px;
+		width: 230px;
 	}
 	
 	.wc-table li {
@@ -5686,7 +5687,7 @@ blockquote cite{
 @media(max-width:320px ){
 	
 	.search-area input[type="text"]:focus {	 		
-		width: 210px;
+		width: 190px;
 	}
 	
 	.search-area input[type="text"] {  
