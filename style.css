@@ -2098,10 +2098,11 @@ img.alignnone{
 .contact-form .form-group input,
 .wpcf7-form .wpcf7-text {
 	height: 45px;
+	max-width: 100% !important;
 	padding: 0 10px;
-	width: 100%;
-	
+	width: 100% !important;	
 }
+
 
 .contact-form .form-group textarea,
 .wpcf7-form .wpcf7-textarea{
