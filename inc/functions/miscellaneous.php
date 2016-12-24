@@ -17,8 +17,8 @@ if ( is_admin_bar_showing() ) {
 	function rexly_push_navbar(){	?>
 		
 		<style type="text/css">
-			.navbar{
-				margin-top: 30px;
+			.navbar-fixed-top{
+				margin-top: 32px;
 			}
 		</style>
 	

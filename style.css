@@ -4268,7 +4268,8 @@ blockquote cite{
 	}
 	
 	.main-nav li a {  
-		padding: 39px 16px;  
+		font-size: 14px;
+		padding: 39px 12px;  
 	}
 	
 	.search-area input[type="text"]:focus {
@@ -4624,6 +4625,10 @@ blockquote cite{
 		padding-left: 0;	
 	}
 	
+	.admin-bar .navbar-fixed-top{
+		margin-top: 45px;	
+	}
+	
 /* 	woocommerce */
 	
 	.woocommerce-account .woocommerce-MyAccount-navigation {
@@ -4902,6 +4907,27 @@ blockquote cite{
 	  font-size: 18px;
 	}
 	
+	.admin-bar .search-area, 
+	.admin-bar .navbar-fixed-top .search-area, 
+	.admin-bar .rex-page .navbar-fixed-top .search-area {
+		margin-top: 64px;
+	}
+	
+	.admin-bar #menu-area{
+		position: absolute;
+		top: 45px;
+	}
+	
+	.admin-bar #blog-banner{
+		margin-top: 78px;	
+	}
+	
+	.admin-bar .rexly-shop,
+	.admin-bar .blog-details{
+		margin-top: 45px;	
+	}
+
+	
 	/* 	woocommerce */
 	
 	.woocommerce .blog-details ul.rexly-shop-col-3 li.product, 
@@ -4964,6 +4990,11 @@ blockquote cite{
 		width: 100%;
 	}
 	
+	.admin-bar #menu-area{
+		top: 45px;
+	}
+
+
 	/* 	woocommerce */
 	
 	.woocommerce .blog-details ul.rexly-shop-col-3 li.product, 
@@ -5259,6 +5290,16 @@ blockquote cite{
 	.wpcf7-form .wpcf7-form-control::-moz-placeholder{
 		font-size: 16px;
 	}
+	
+	.admin-bar .navbar-fixed-top {
+	  margin-top: 0;
+	}
+	
+	.admin-bar .navbar-fixed-top .search-area, 
+	.admin-bar .rex-page .navbar-fixed-top .search-area {
+		margin-top: 19px;
+	}
+
 	
 /* 	woocommerce */
 	

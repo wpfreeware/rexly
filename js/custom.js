@@ -129,6 +129,7 @@ Custom JS
 		
 		//for main page header image height
 		$('.header-img').css('height', window.innerHeight);
+		$('.admin-bar .header-img').css('height', window.innerHeight-33);
 		
 		if($('.header-img').width() <= 991) {
 			 
@@ -145,6 +146,8 @@ Custom JS
 		//for main page header image height
 		
 		$('.header-img').css('height', window.innerHeight);
+		
+		$('.admin-bar .header-img').css('height', window.innerHeight-33);
 		
 		if($('.header-img').width() <= 991) { 
 			
