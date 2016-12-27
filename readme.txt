@@ -134,5 +134,8 @@ Google Fonts :
 
 == Changelogs ==
 
+= 1.0.0 - Dec 27 2016 =
+* Fix scroll top issue
+
 = 1.0.0 - Dec 20 2016 =
 * Initial Release
