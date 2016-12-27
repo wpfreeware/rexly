@@ -250,7 +250,7 @@ img.alignnone{
 
 .loader {
 	font-size: 10px;
-	top: 300px;
+	top: 43%;
 	left: 45%;
 	text-indent: -9999em;
 	width: 11em;
@@ -539,7 +539,7 @@ img.alignnone{
 .main-nav li a {
 	color: #636363;
 	font-size: 15px;
-	padding: 39px 20px;
+	padding: 39px 18px;
 	text-transform: uppercase;
 }
 
@@ -4272,6 +4272,11 @@ blockquote cite{
 		padding: 39px 12px;  
 	}
 	
+	.less-padding {
+		padding: 30px 12px !important;
+	}
+
+	
 	.search-area input[type="text"]:focus {
 		width: 850px;  
 	}
@@ -4406,6 +4411,27 @@ blockquote cite{
 	
 }
 
+@media(height: 1366px ){
+	.header-inner > img {
+		height: auto !important;
+	}
+	
+	.header-content {
+		padding: 10% 70px 70px;
+	}
+}
+
+@media(height: 1440px ){
+	.header-inner > img {
+		height: auto !important;
+	}
+	
+	.header-content {
+		padding: 10% 70px 70px;
+	}
+}
+
+
 
 @media(max-width:991px ){
 	.header-content {  
@@ -4444,8 +4470,8 @@ blockquote cite{
 	}
 	
 	.main-nav li a {
-		font-size: 13px;
-		padding: 39px 7px;
+		font-size: 12px;
+		padding: 39px 5px;
 	}
 	
 	.less-padding {
@@ -4746,6 +4772,16 @@ blockquote cite{
 		margin-bottom: 20px;
 		width: 50%;
 	}
+	
+	#about,
+	#service,
+	#portfolio,
+	#pricing-table,
+	#team,
+	#from-blog,
+	.contact-overlay{
+		padding: 120px 0 70px;
+	}
 		
 	.about-left { 
 		width: 96%;
@@ -4993,6 +5029,12 @@ blockquote cite{
 	.admin-bar #menu-area{
 		top: 45px;
 	}
+	
+	.loader {
+		left: 42%;
+		top: 35%;
+	}
+
 
 
 	/* 	woocommerce */
@@ -5012,8 +5054,12 @@ blockquote cite{
 
 @media(max-width:480px ){
 	
+	.tittle{
+		font-size: 30px;
+	}
+	
 	.header-content {
-		padding: 20px;
+		padding: 20px 5px;
 	}
 	
 	.header-content h2 {
@@ -5024,6 +5070,10 @@ blockquote cite{
 	.header-content h2 span {
 		font-weight: normal;
 		line-height: 43px;
+	}
+	
+	.header-btn-area {
+		margin-top: 0;
 	}
 	
 	.knowmore-btn {
@@ -5058,7 +5108,7 @@ blockquote cite{
 	}
 	
 	.team-grid {
-		padding: 0 75px;	  
+		padding: 0 15%;	  
 	}
 	
 	.team-grid li {
@@ -5138,6 +5188,14 @@ blockquote cite{
 	.button-default::after, 
 	.button-default > span {
 		font-size: 18px;	
+	}
+	
+	.testimonial-slider .slick-next{
+		right: 0;
+	}
+		
+	.single-slide {
+		padding: 0 50px;  
 	}
 	
 	.single-slide {
@@ -5299,6 +5357,12 @@ blockquote cite{
 	.admin-bar .rex-page .navbar-fixed-top .search-area {
 		margin-top: 19px;
 	}
+	
+	.loader {
+		left: 38%;
+		top: 33%;
+	}
+	
 
 	
 /* 	woocommerce */
@@ -5343,8 +5407,40 @@ blockquote cite{
 		
 }
 
+@media(max-width: 414px) {
+	
+	.client-table {
+		padding-left: 0;
+	}	
+	
+	.slick-initialized .slick-slide{
+		text-align: center;
+		margin-right: 0;	
+	}
+	
+	.slick-slide img {
+		display: inline-block;
+	}
+	
+	.footer-social a{
+		margin: 0 3px;
+	}
+	
+	.search-area input[type="text"]:focus{
+		width: 280px;
+	}
+
+}
+
+@media(max-width: 384px) {
+	.search-area input[type="text"]:focus{
+		width: 250px;
+	}
+}
+
 
 @media(max-width:360px ){
+	
 	.header-inner > img {
 		height: 250px;
 		width: 100%;
@@ -5370,11 +5466,12 @@ blockquote cite{
 	}
 	
 	.header-btn-area {
-		margin-top: 00px;
+		margin-top: 0px;
 	}
 	
 	.header-btn-area a {
 		display: block;
+		font-size: 12px;
 		margin: 10px 35px;
 	}
 	
@@ -5474,6 +5571,15 @@ blockquote cite{
 	.counter-area {
 		padding: 40px 0 0;
 	}
+	
+	.counter-area > div{
+		margin: 0;	
+	}
+	
+	.single-counter {
+		margin-bottom: 15px;
+	}
+
 	
 	.single-counter > span {
 		font-size: 40px;
@@ -5692,6 +5798,11 @@ blockquote cite{
 		padding: 15% 0;
 	}
 	
+	.loader {
+		left: 35%;
+		top: 42%;
+	}
+	
 /* 	woocommerce */
 	
 	.woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span {
@@ -5822,6 +5933,11 @@ blockquote cite{
 	.header-content {
 		padding: 10px 0;
 		margin-top: 10px;	
+	}
+	
+	.loader {
+		left: 33%;
+		top: 38%;
 	}
 	
 	/* 	woocommerce */
