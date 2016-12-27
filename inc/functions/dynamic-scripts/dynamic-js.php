@@ -87,7 +87,7 @@ function rexly_dynamic_js_call(){ ?>
 					 *
 					 *	@since rexly 1.0
 					 */
-					 $preloader	=	esc_html( get_theme_mod( 'rexly_preloader_option', '1' ) );
+					 $preloader	=	esc_html( get_theme_mod( 'rexly_scroll_top', '0' ) );
 					 if( $preloader == '0' ) : ?>
 						$(window).scroll(function(){
 							if ($(this).scrollTop() > 300) {
@@ -111,7 +111,7 @@ function rexly_dynamic_js_call(){ ?>
 					 *
 					 *	@since rexly 1.0
 					 */
-					 $scroll_top	=	esc_html( get_theme_mod( 'rexly_scroll_top', '0' ) );
+					 $scroll_top	=	esc_html( get_theme_mod( 'rexly_preloader_option', '1' ) );
 					 if( $scroll_top == '0' ) : ?>				  
 						$(window).load(function() { // makes sure the whole site is loaded
 					      $('.loader').fadeOut(); // will first fade out the loading animation
